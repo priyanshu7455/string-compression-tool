@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>String Compression Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🔁 Background Video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="video1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- 🔲 Dark Overlay -->
+  <div class="overlay"></div>
+  
+
+
+  <!-- 💎 Main Glass UI -->
+  <div class="container">
+    <h1>🧵 String Compression Tool</h1>
+    <p class="desc">Using <strong>Run-Length Encoding</strong> to compress repeated characters.</p>
+
+    <label for="inputString">Enter your string:</label>
+    <input type="text" id="inputString" placeholder="e.g. aaabbbbccdaa">
+    <button onclick="compress()">Compress</button>
+
+    <div id="output"></div>
+    <div class="raj-label">~RAJ</div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
